@@ -74,6 +74,18 @@ $$
    * Initially, agent chooses actions randomly (**exploration**).
    * Over time, reduces randomness to exploit learned policy (**exploitation**).
 
+| Hyperparameter | Value | Purpose                                 |
+| -------------- | ----- | --------------------------------------- |
+| GAMMA          | 0.99  | Discount factor for future rewards      |
+| LR             | 0.001 | Learning rate for optimizer             |
+| BATCH\_SIZE    | 64    | Number of experiences per training step |
+| BUFFER\_SIZE   | 10000 | Replay buffer capacity                  |
+| EPS\_START     | 1.0   | Initial exploration rate                |
+| EPS\_END       | 0.01  | Minimum exploration rate                |
+| EPS\_DECAY     | 500   | Steps to decay epsilon                  |
+| TARGET\_UPDATE | 10    | Episodes between target network updates |
+| NUM\_EPISODES  | 500   | Total training episodes                 |
+
 
 ## **4. Training Process**
 
