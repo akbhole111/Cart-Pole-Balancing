@@ -1,7 +1,6 @@
 # Cart-Pole-Balancing
 # **Theoretical Explanation of CartPole DQN Project**
 
----
 
 ## **1. Project Purpose**
 
@@ -14,7 +13,6 @@ Key objectives:
 3. Apply **experience replay** and **target networks** to stabilize training.
 4. Demonstrate the agent’s ability to learn a policy that consistently keeps the pole upright.
 
----
 
 ## **2. Reinforcement Learning Overview**
 
@@ -32,7 +30,6 @@ $$
 
 * **Discount factor (γ):** Determines how much future rewards are valued relative to immediate rewards.
 
----
 
 ## **3. Deep Q-Network (DQN)**
 
@@ -77,7 +74,6 @@ $$
    * Initially, agent chooses actions randomly (**exploration**).
    * Over time, reduces randomness to exploit learned policy (**exploitation**).
 
----
 
 ## **4. Training Process**
 
@@ -95,7 +91,6 @@ $$
 
 **Outcome:** The policy network learns to choose actions that **maximize cumulative reward**, allowing the agent to balance the pole for the maximum number of steps.
 
----
 
 ## **5. Why This Project is Important**
 
